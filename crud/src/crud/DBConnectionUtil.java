@@ -7,9 +7,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnectionUtil {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/crud";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Ayan2002";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/your_db_name";
+    private static final String DB_USER = "db_username";
+    private static final String DB_PASSWORD = "db_password";
 
     public static Connection getConnection() {
         Connection connection = null;
